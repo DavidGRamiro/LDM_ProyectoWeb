@@ -11,17 +11,19 @@ body{
 header{
     background-color: rgba(255, 181, 22, 0.50);
     color:#ffffff;
-    padding: 10px;
+    
 }
-div .logo{
-    width: 250px;
-    padding: 10px;
-    float: left;
+header div .logo{
+    width:200px;
+    text-align: left;
+    
 }
 header h1 {
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
     text-shadow: 5px 3px 5px black;
+    margin:5px  0 5px;
+    padding: 10px 10px 10px 10px;
 }
 .contenido{
     width: 400px;
