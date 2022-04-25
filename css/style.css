@@ -40,11 +40,16 @@ header h1 {
 }
 
 /*Diseño de la barra de navegación y posicionamiento*/
+/*El background es un degradado importado en una libreria online*/
 
 .barra{
     width: 100%;
     height: 50px;
-    background-color:orange;
+    background: #fceabb;
+    background: -moz-linear-gradient(top,  #fceabb 0%, #fccd4d 99%, #f8b500 100%, #fbdf93 100%);
+    background: -webkit-linear-gradient(top,  #fceabb 0%,#fccd4d 99%,#f8b500 100%,#fbdf93 100%);
+    background: linear-gradient(to bottom,  #fceabb 0%,#fccd4d 99%,#f8b500 100%,#fbdf93 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 );
     margin:2px 
 }
 
@@ -79,8 +84,6 @@ nav >ul >li > a{
 
 nav > ul >li > a:hover{
     transform: scale(1.1);
-    background-color: orange;
-    box-shadow: 0px 0px 10px 0px white
 }
 
 /*Contenido principal de la página*/
@@ -135,7 +138,7 @@ a:visited{
     color:white /*El color tras visitarlo*/
 }
 a:hover{
-    color:deeppink /*El color cuando pasamos el mouse por encima*/
+    color:black/*El color cuando pasamos el mouse por encima*/
 }
 a:active{
     color:black /*Color en el momento que hacemos click*/
