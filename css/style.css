@@ -8,6 +8,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+/*Estilos de la cabecera*/
 
 header{
     background-color: rgba(255, 181, 22, 0.50);
@@ -18,12 +19,16 @@ header{
     float:inline-end;
     
 }
+/*Diseño y posicionamiento del logo*/
+
 .logo{
     float:left;
 }
 .logo img{
     height: 60px;
 }
+
+/*Diseño y posicionamiento del titulo de nuestra página*/
 
 header h1 {
     color:white;
@@ -34,16 +39,17 @@ header h1 {
     text-align: center;
 }
 
+/*Diseño de la barra de navegación y posicionamiento*/
+
 .barra{
     width: 100%;
-    height: 40px;
+    height: 50px;
     background-color:orange;
-    padding:0px 10px;
-    margin:5px 
+    margin:2px 
 }
 
 .menu{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
     height: 100%;
 }
@@ -62,9 +68,9 @@ nav >ul >li{
     list-style:none;
     display:flex;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 nav >ul >li > a{
@@ -76,6 +82,8 @@ nav > ul >li > a:hover{
     background-color: orange;
     box-shadow: 0px 0px 10px 0px white
 }
+
+/*Contenido principal de la página*/
 
 .contenido{
     width: 400px;
@@ -99,9 +107,14 @@ nav > ul >li > a:hover{
     transition: 0.3s ease-in-out;
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3)
 }
+
+/*Tamño por defecto de las imagenes*/
+
 .image{
     width: 400px;
 }
+
+/*Diseño de el pie de página*/
 
 footer{
     background-color:  rgba(255, 181, 22, 0.50);
@@ -126,4 +139,29 @@ a:hover{
 }
 a:active{
     color:black /*Color en el momento que hacemos click*/
+}
+
+/*Diseño de la pagina adicional de info.html*/
+
+.info{
+    font-family:'Fredericka the Great',cursive;
+    font-size: 30px;
+    color:rgba(85, 79, 67, 0.80);
+    text-shadow: 3px 5px rgba(255, 181, 22, 0.50);
+}
+
+#quienes_somos{
+    font-weight: bold;
+}
+
+.foto_empresa img{
+    width: 30%;
+    height: 30%;
+    margin-left: 700px;
+}
+
+.pequeños{
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
 }
