@@ -140,6 +140,10 @@ nav > ul >li > a:hover{
     margin-top: 80px;
 }
 
+.lado_derecho:hover{
+        transition: 0.3s ease-in-out;
+        box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3)
+}
 
 
 /*Diseño del aside izquierdo*/
@@ -221,6 +225,21 @@ a:active{
     text-align: center;
 }
 
+/*Todos los parrafos de la web en negrita*/
 p{
+    font-weight: bold;
+}
+
+/*Diseño de la pagina adicional de Areas de Actuacion*/
+
+.area_actuacion h1{
+    font-family:'Fredericka the Great',cursive;
+    font-size: 30px;
+    color:rgba(85, 79, 67, 0.80);
+    text-shadow: 3px 5px rgba(255, 181, 22, 0.50);
+}
+
+section > ul > li{
+    list-style:circle;
     font-weight: bold;
 }
