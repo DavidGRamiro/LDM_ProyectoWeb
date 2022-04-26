@@ -89,7 +89,7 @@ nav > ul >li > a:hover{
 
 .contenido{
     width: 400px;
-    margin: 50px auto;
+    margin: 0px auto;
 }
 
 .contenido article{
@@ -136,18 +136,27 @@ nav > ul >li > a:hover{
 
 .lado_izquierdo{
     width: 300px;
-    height: 2600px;
+    height: 2300px;
     background-color: white;
     text-align: center;
     float:left;
-    margin: 50px 200px;
-    padding:10px
+    margin: 60px 200px;
+    padding:10px;
+}
+
+.lado_izquierdo img{
+     width: 300px;
 }
 
 .lado_izquierdo h2{
     font-family: 'Montserrat' 'sans serift';
     font-size: 30px;
     color:coral;
+}
+
+.lado_izquierdo:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3)
 }
 /*Diseño de el pie de página*/
 
@@ -167,7 +176,7 @@ a:link{
     text-decoration: none;
 }
 a:visited{
-    color:white /*El color tras visitarlo*/
+    color: black/*El color tras visitarlo*/
 }
 a:hover{
     color:black/*El color cuando pasamos el mouse por encima*/
@@ -199,4 +208,8 @@ a:active{
     font-weight: bolder;
     font-style: oblique;
     text-align: center;
+}
+
+p{
+    font-weight: bold;
 }
