@@ -114,17 +114,18 @@ nav > ul >li > a:hover{
 
 .image{
     width: 400px;
+    border-radius: 50px;
 }
 
-/*Diseño del aside*/
+/*Diseño del aside derecho*/
 
 .lado_derecho{
-    width: 300px;
-    height: 2600px;
+    width: 400px;
+    height: 2200px;
     background-color: white;
     text-align: center;
     float:right;
-    margin:50px 200px ;
+    margin:80px 150px ;
     padding:10px
 }
 
@@ -134,6 +135,14 @@ nav > ul >li > a:hover{
     color:coral;
 }
 
+.lado_derecho img{
+    width: 400px;
+    margin-top: 80px;
+}
+
+
+
+/*Diseño del aside izquierdo*/
 .lado_izquierdo{
     width: 300px;
     height: 2300px;
@@ -146,6 +155,7 @@ nav > ul >li > a:hover{
 
 .lado_izquierdo img{
      width: 300px;
+     
 }
 
 .lado_izquierdo h2{
@@ -202,6 +212,7 @@ a:active{
     width: 30%;
     height: 30%;
     margin-left: 700px;
+    border-radius: 50px;
 }
 
 .pequeños{
