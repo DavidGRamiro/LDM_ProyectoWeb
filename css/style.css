@@ -49,7 +49,7 @@ header h1 {
     background: -webkit-linear-gradient(top,  #fceabb 0%,#fccd4d 99%,#f8b500 100%,#fbdf93 100%);
     background: linear-gradient(to bottom,  #fceabb 0%,#fccd4d 99%,#f8b500 100%,#fbdf93 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 );
-    margin:2px 
+    margin:2px ;
 }
 
 .menu{
@@ -75,6 +75,10 @@ nav >ul >li{
     padding: 20px;
     text-transform: uppercase;
     font-size: 14px;
+}
+
+.navegacion > li{
+    display: inline-block;
 }
 
 nav >ul >li > a{
@@ -110,7 +114,7 @@ nav > ul >li > a:hover{
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3)
 }
 
-/*Tamño por defecto de las imagenes*/
+/*Tamaño por defecto de las imagenes*/
 
 .image{
     width: 400px;
@@ -243,3 +247,14 @@ section > ul > li{
     list-style:circle;
     font-weight: bold;
 }
+
+/*Diseño del formulario en la página "Contacto"*/
+
+.contacto{
+    font-family:'Fredericka the Great',cursive;
+    font-size: 30px;
+    color:rgba(85, 79, 67, 0.80);
+    text-shadow: 3px 5px rgba(255, 181, 22, 0.50);
+    text-align: center;
+}
+
