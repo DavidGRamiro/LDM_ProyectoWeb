@@ -259,6 +259,12 @@ section > ul > li{
 }
 
 /*Diseño formulario para los datos personales*/
+form {
+    margin: 0px auto;
+    width: 1000px;
+    height: auto;
+    text-align:start
+}
 .adopta > fieldset> legend{
     color: black;
     text-transform: uppercase;
