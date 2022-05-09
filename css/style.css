@@ -204,13 +204,18 @@ a:active{
     color:black /*Color en el momento que hacemos click*/
 }
 
-/*Diseño de la pagina adicional de info.html*/
+/*Diseño de la pagina adicional de INFO.HTML*/
 
+.top{
+  margin-left: 20px;
+}
 .info{
     font-family:'Fredericka the Great',cursive;
     font-size: 30px;
     color:rgba(85, 79, 67, 0.80);
     text-shadow: 3px 5px rgba(255, 181, 22, 0.50);
+    margin:20px;
+    padding:10px;
 }
 
 #quienes_somos{
@@ -238,12 +243,20 @@ p{
 /*Diseño de la pagina adicional de Areas de Actuacion*/
 
 .area_actuacion h1{
+    margin: auto;
+    padding:20px;
     font-family:'Fredericka the Great',cursive;
     font-size: 30px;
     color:rgba(85, 79, 67, 0.80);
     text-shadow: 3px 5px rgba(255, 181, 22, 0.50);
+
 }
 
+.area_actuacion{
+    margin:20px 50px;
+    padding:auto;
+
+}
 section > ul > li{
     list-style:circle;
     font-weight: bold;
@@ -251,12 +264,17 @@ section > ul > li{
 
 /*Diseño del formulario en la página "Contacto"*/
 
+.formulario{
+    margin: 20px;
+}
 .contacto{
     font-family:'Fredericka the Great',cursive;
     font-size: 30px;
     color:rgba(85, 79, 67, 0.80);
     text-shadow: 3px 5px rgba(255, 181, 22, 0.50);
-    text-align: center;
+    text-align: left;
+    margin:20x;
+    padding: 15px;
 }
 
 /*Diseño formulario para los datos personales*/
