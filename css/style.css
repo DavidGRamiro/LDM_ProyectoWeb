@@ -18,7 +18,7 @@ header{
     background-color: rgba(255, 181, 22, 0.50);
     color:#ffffff;
     height: 75px;
-    padding: 2px;
+    padding: 5px;
     margin:10;
     
     
@@ -35,6 +35,7 @@ header{
 /*Diseño y posicionamiento del titulo de nuestra página*/
 
 header h1 {
+    padding-top: 15px;
     color:white;
     font-family:'Fredericka the Great',cursive;
     font-size: 30px;
@@ -45,7 +46,7 @@ header h1 {
 /*Diseño de la barra de navegación y posicionamiento*/
 
 .barra{
-    font-family: "Monteserrat";
+    padding-top: 10px;
     font-size: 15px;
     width: 500px;
     height: 50px;
@@ -55,28 +56,37 @@ ul{
     list-style: none;
 }
 #menu li>a{
-    background-color: grey;
-    color: #ffffff;
+    background-color: rgba(255, 181, 22, 0.80);
+    color: black;
+    font-weight: bold;
     padding:20px;
-    display: block;
+    width: 85px;
+    display:block;
     text-decoration: none;
+    
+    
 }
 
 #menu li>a:hover{
     color: black;
-    background-color: yellow;
+    background-color: white;
+   
 }
 
 #menu>li{
     float:left;
     text-align: center;
+    width: auto;
 }
 
 #menu>li>ul{
     display: none;
+    position: absolute;
+    
 }
 #menu>li:hover>ul{
     display:block;
+    
 }
 
 /*Contenido principal de la página*/
@@ -144,7 +154,7 @@ ul{
 /*Diseño del aside izquierdo*/
 .lado_izquierdo{
     width: 300px;
-    height: 2300px;
+    height: 2200px;
     background-color: white;
     text-align: center;
     float:left;
