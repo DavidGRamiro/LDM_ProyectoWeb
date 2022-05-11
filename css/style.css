@@ -19,7 +19,8 @@ header{
     color:#ffffff;
     height: 75px;
     padding: 5px;
-    margin:10;
+    margin:10px;
+    display:block;
     
     
 }
@@ -48,6 +49,7 @@ header h1 {
 .barra{
     padding-top: 10px;
     font-size: 15px;
+    display: ;
     width: 500px;
     height: 50px;
     margin:0 auto;
@@ -63,8 +65,6 @@ ul{
     width: 85px;
     display:block;
     text-decoration: none;
-    
-    
 }
 
 #menu li>a:hover{
@@ -85,8 +85,7 @@ ul{
     
 }
 #menu>li:hover>ul{
-    display:block;
-    
+    display:block;    
 }
 
 /*Contenido principal de la página*/
@@ -95,6 +94,7 @@ ul{
     width: 400px;
     margin: 0px auto;
     padding: 50px;
+    float:none;
 }
 
 .contenido article{
@@ -102,6 +102,7 @@ ul{
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding: 0.25rem;
+    text-align: center;
 }
 
 .contenido article h2{
@@ -177,6 +178,7 @@ ul{
     transition: 0.3s ease-in-out;
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3)
 }
+
 /*Diseño de el pie de página*/
 
 footer{
@@ -352,3 +354,14 @@ form {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 );
 
 }
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-widht: 320px) {
+
+    .recomendados{
+        background-color: aqua;
+    }
+
+}
+    
