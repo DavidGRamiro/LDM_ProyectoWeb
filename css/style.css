@@ -80,12 +80,10 @@ ul{
 }
 
 /*Contenido principal de la página*/
-
 .contenido{
-    width: 400px;
-    margin: 0px auto;
-    padding: 50px;
-    
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;   
 }
 
 .contenido article{
@@ -98,7 +96,6 @@ ul{
 
 .contenido article h2{
     font-size: 30px;
-    font-style: unset;
     color:coral;
 }
 
@@ -110,7 +107,7 @@ ul{
 /*Tamaño por defecto de las imagenes*/
 
 .image{
-    width: 400px;
+    width: 100%;
     border-radius: 50px;
 }
 
