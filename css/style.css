@@ -1,0 +1,448 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='0.4' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='scale(11.95) translate(-916.32 -687.24)'%3E%3Cuse fill='%23fcfcfc' href='%23s' y='2'/%3E%3Cuse fill='%23fcfcfc' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s'/%3E%3Cuse fill='%23f7f7f7' href='%23s' x='2'/%3E%3Cuse fill='%23f7f7f7' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='scale(11.95) translate(-916.32 -687.24)'%3E%3Cg fill='%23f5f5f5'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(11.95) translate(-916.32 -687.24)'%3E%3Cg fill='%23f5f5f5'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(11.95) translate(-916.32 -687.24)'%3E%3Cg fill='%23f2f2f2'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='scale(11.95) translate(-916.32 -687.24)'%3E%3Cg fill='%23ffffff'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23efefef'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='scale(11.95) translate(-916.32 -687.24)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='scale(11.95) translate(-916.32 -687.24)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='scale(11.95) translate(-916.32 -687.24)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-right: 30px;
+}
+
+img {
+    width: 20%;
+}
+
+/*Diseño y posicionamiento del titulo de nuestra página*/
+
+#titulo {
+    background-color: rgba(255, 181, 22, 0.50);
+    font-family:'Fredericka the Great',cursive;
+    font-size: 30px;
+    color:white;
+    text-shadow: 5px 3px 5px black;
+    padding-top: 40px;
+    margin:20px;
+    width: 100%;
+    text-align: center;
+  
+}
+.logo img{
+    width: 5%;
+    height: 5%;   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/*Diseño de la barra de navegación y posicionamiento*/
+.barra{
+    padding:8px;
+    font-size: 15px;
+    width: 600px;
+    height: 50px;
+    margin:0 auto;
+}
+ul{
+    list-style: none;
+}
+#menu li>a{
+    background-color: rgba(255, 181, 22, 0.80);
+    color: black;
+    font-weight: bold;
+    padding:20px;
+    margin-right: 5px;
+    width: 100px;
+    display:block;
+    text-decoration: none;
+}
+
+#menu li>a:hover{
+    color: black;
+    background-color: white;
+   
+}
+
+#menu>li{
+    float:left;
+    text-align: center;
+    width: auto;
+}
+
+#menu>li>ul{
+    display: none;
+    position: absolute;
+    
+}
+#menu>li:hover>ul{
+    display:block;    
+}
+/*Contenedor principal del body*/
+.padre{
+    display: flex;
+    padding:20px;
+    margin: 10px auto;
+    justify-content:space-around;
+}
+
+/*Diseño del aside izquierdo*/
+.lado_izquierdo{
+    width: 10%;
+    height: 20%;
+    background-color: white;
+    padding:40px; 
+    text-align: center;
+}
+.lado_izquierdo img{
+    margin:20px;
+     width: 100%;    
+}
+.lado_izquierdo h2{
+
+    font-family: 'Montserrat' 'sans serift';
+    font-size: 150%;
+    color:coral;
+}
+.lado_izquierdo:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3)
+}
+
+/*Contenido principal de la página*/
+.contenido{
+    width: 20%;
+    height: 20%;
+    
+}
+.contenido article{
+    background-color: #ffffff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    text-align: center;
+    
+}
+
+.contenido article h2{
+    font-size: 150%;
+    color:coral;
+}
+
+.contenido article:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3)
+}
+
+.image{
+    width: 100%;
+    border-radius: 50px;
+}
+/*Diseño del aside derecho*/
+
+.lado_derecho{
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    text-align: center;
+    padding:10px;
+    margin:20px
+    
+}
+
+.lado_derecho h2{
+    font-family: 'Montserrat' 'sans serift';
+    font-size: 150%;
+    color:coral;
+}
+
+.lado_derecho img{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.lado_derecho:hover{
+        transition: 0.3s ease-in-out;
+        box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3)
+}
+
+/*Diseño de el pie de página*/
+
+footer{
+    background-color:  rgba(255, 181, 22, 0.50);
+    color:black;
+    padding: 50px;
+    font-weight: bold;
+}
+
+footer section{
+    float:right
+}
+
+a:link{
+    color:black; /*El color antes de visitarlo*/
+    text-decoration: none;
+}
+a:visited{
+    color: black/*El color tras visitarlo*/
+}
+a:hover{
+    color:black/*El color cuando pasamos el mouse por encima*/
+}
+a:active{
+    color:black /*Color en el momento que hacemos click*/
+}
+
+/*Diseño de la pagina adicional de INFO.HTML*/
+
+.info{
+    font-family:'Fredericka the Great',cursive;
+    font-size: 100%;
+    color:rgba(85, 79, 67, 0.80);
+    text-shadow: 3px 5px rgba(255, 181, 22, 0.50);
+    margin:20px;
+    padding:10px;
+}
+
+#quienes_somos{
+    font-weight: bold;
+}
+
+.foto_empresa img{
+    width: 30%;
+    height: 30%;
+    margin:2% 35%;
+    border-radius: 50px;
+}
+
+.pequeños{
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+}
+
+/*Todos los parrafos de la web en negrita*/
+p{
+    font-weight: bold;
+}
+
+/*Diseño de la pagina adicional de Areas de Actuacion*/
+
+.area_actuacion h1{
+    margin: 20px;
+    padding:20px;
+    font-family:'Fredericka the Great',cursive;
+    font-size: 30px;
+    color:rgba(85, 79, 67, 0.80);
+    text-shadow: 3px 5px rgba(255, 181, 22, 0.50);
+
+}
+
+.area_actuacion{
+    margin:20px 50px;
+    padding:auto;
+
+}
+section > ul > li{
+    list-style:circle;
+    font-weight: bold;
+}
+
+/*Diseño del formulario en la página "Contacto"*/
+
+.contacto{
+    font-family:'Fredericka the Great',cursive;
+    font-size: 30px;
+    color:rgba(85, 79, 67, 0.80);
+    text-shadow: 3px 5px rgba(255, 181, 22, 0.50);
+    text-align: left;
+    margin:20x;
+    padding: 15px;
+}
+
+/*Diseño formulario para los datos personales*/
+form {
+    margin: 0px auto;
+    width: 1000px;
+    height: auto;
+    text-align:start
+}
+.adopta > fieldset> legend{
+    color: black;
+    text-transform: uppercase;
+    border-style:groove;
+    background-color: #ffffff;
+}
+.adopta fieldset{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(254,252,234);
+    background: -moz-linear-gradient(top,  rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+    background: linear-gradient(to bottom,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 );
+    
+}
+
+/*Diseño formulario para las personalidades*/
+.personalidad > fieldset> legend{
+    color: black;
+    text-transform: uppercase;
+    border-style:groove;
+    background-color: #ffffff;
+}
+.personalidad fieldset{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(254,252,234);
+    background: -moz-linear-gradient(top,  rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+    background: linear-gradient(to bottom,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 );
+
+}
+
+/*Diseño formulario para los datos de interés*/
+.datos >fieldset>legend{
+    color: black;
+    text-transform: uppercase;
+    border-style:groove;
+    background-color: #ffffff;
+}
+
+.datos >fieldset{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(254,252,234);
+    background: -moz-linear-gradient(top,  rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+    background: linear-gradient(to bottom,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 );
+}
+
+/*Diseño formulario para la conciencia*/
+
+.final > fieldset > legend{
+    color: black;
+    text-transform: uppercase;
+    border-style:groove;
+    background-color: #ffffff;
+}
+
+.final >fieldset{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(254,252,234);
+    background: -moz-linear-gradient(top,  rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+    background: linear-gradient(to bottom,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 );
+
+}
+/*MEDIA QUERIES*/
+/*iPhone vertical*/
+@media only screen and (max-width: 400px) and (orientation:portrait) {
+    
+    #titulo{
+        width: 90%;
+    }
+    .logo img{
+        width: 25%;
+    }
+    .contenido{
+        width: 100%;
+        height: 100%;
+    }
+    .lado_derecho{
+        display: none;
+    }
+    .lado_izquierdo{
+        display: none;
+    }
+    footer{
+        width: 85%;
+    }
+     .barra{
+         margin-bottom: 180px;
+         margin-left: 50px;
+         font-size: 15px;
+         width: 20px;
+     }
+}
+/*iPhone horizontal*/
+@media only screen and (max-width: 844px) and (orientation:landscape){
+    #titulo{
+        background-color: blueviolet;
+    }
+    .logo img{
+        width: 15%;
+    }
+    .barra{
+        background-color: pink
+    }
+    #menu li>a{
+        background-color: pink;
+    }
+    html{
+        width: 100%;
+    }
+    footer{
+        background-color: blueviolet;
+        color:#ffffff
+    }
+}
+/*iPad vertical*/
+@media only screen and (max-width: 1024px) and (orientation:portrait){
+    #titulo{
+        color:#ffffff;
+    }
+    .logo img{
+        width: 15%;
+    }
+    .contenido{
+        width: 30%;
+    }
+}
+/*ipad horizontal*/
+@media only screen and (max-width: 1366px) and (orientation:landscape){
+    .logo img{
+        width: 10%;
+    }
+    .lado_izquierdo{
+        width: 10%;
+    }
+    .lado_izquierdo img{
+        width: 150%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1300px){
+
+     #titulo{
+        color:white;
+        background: rgb(76,76,76);
+        background: -moz-linear-gradient(-45deg,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 87%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+        background: -webkit-linear-gradient(-45deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 87%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+        background: linear-gradient(135deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 87%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 );
+     }
+     
+     footer{
+        color:white;
+        background: rgb(76,76,76);
+        background: -moz-linear-gradient(-45deg,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 87%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+        background: -webkit-linear-gradient(-45deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 87%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+        background: linear-gradient(135deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 87%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 );
+     }
+    }
+
+    @media only screen and (min-width: 1300px){
+        
+        .logo img{
+            width: 8%;
+        }
+        footer{
+            margin:20px
+        }
+    }
